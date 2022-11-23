@@ -46,6 +46,11 @@ export default {};
     height: 70vh;
   }
 
+  .text-warm{
+      font-size: 0.7rem;
+      margin-bottom: 0;
+    }
+
   .img-index-home{
     width: 10rem;
       margin: auto auto;
