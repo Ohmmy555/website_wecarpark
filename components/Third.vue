@@ -135,4 +135,11 @@
     margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
+
+  @media screen and (min-width: 360px) {
+
+    .container_third{
+      display: block;;
+    }
+  }
   </style>

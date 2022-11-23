@@ -3,25 +3,25 @@
   <div class="container-fluid p-3 alert-success">
     <p class="text-center text-warm"><b><span class="topic_we">We</span><span class="topic_carpark">Carpark</span></b> กำลังอยู่ในช่วงการทดสอบที่คณะศึกษาศาสตร์ มหาวิทยาลัยขอนแก่น</p>
   </div>
-    <div class="container">
-      <div class="left">
-      <h1 class="text-center topic mt-4"><span class="topic_we">Easy Park</span><br><span class="topic_carpark">Easy Pay</span></h1>
-      <p class="des text-center">A platform that lets parking space owners rent out their spaces to drivers looking for a place to park.</p>
+    <div class="container download">
+      <div class="left-download">
+      <h1 class=" topic mt-4"><span class="topic_we">Easy Park</span><b></b><span class="topic_carpark">Easy Pay</span></h1>
+      <p class="des">A platform that lets parking space owners rent out their spaces to drivers looking for a place to park.</p>
       <div class="btn-download">
-        <a href="/">
+        <a href="https://www.google.com" target="_blank">
         <button type="button" class="btn"><img src="../assets/icon/android.svg" alt="logo android" class="icon-android">Download for Android</button>
       </a>
-      </div>
-  
-      <div>
         <a href="#how">
-        <p class="des-how"><img src="../assets/icon/download.svg" alt="icon download" class="icon-download"> Steps and how to download</p>
+        <p class="des-how">Steps and how to download</p>
       </a>
+      </div>
+      <div class="contact">
+        <p class="des"><a href="https://www.line.me/th" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
       </div>
   
     </div>
   
-    <div class="right">
+    <div class="right-download">
       <img src="../assets/image/index_app.svg" alt="" class="img-phone-index">
     </div>
   
@@ -64,11 +64,17 @@ export default {
   .icon-download{
     width: 1.5rem;
   }
+
+  .link-line-contact{
+    text-decoration: none;
+    color: black;
+  }
   
   @media screen and (min-width: 360px) {
     .topic{
       font-size: 3rem;
       font-weight: 400;
+      text-align: center;
     }
   
     .text-warm{
@@ -83,14 +89,14 @@ export default {
     }
   
     .btn-download{
-  text-align: center;
+      text-align: center;
     }
   
     .img-phone-index{
       width: 10rem;
-  margin: auto auto;
-  display: block;
-  padding-bottom:2rem ;
+      margin: auto auto;
+      display: block;
+      padding-bottom:2rem ;
     }
   
     .right{
@@ -102,7 +108,81 @@ export default {
       text-align: center;
       font-size: 0.8rem;
       color: #fd9509;
-  
+    }
+
+    .icon-contact{
+        width:2rem;
+      }
+
+      .des{
+        text-align: center;
+      }
+
+
+  }
+    @media (min-width: 576px) {
+
+  }
+
+    @media (min-width: 768px) {
+
+  }
+
+    @media (min-width: 992px) {
+
+  }
+
+    @media (min-width: 1200px) {
+      .download{
+        display: flex;
+      }
+
+      .right-download{
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+        height: 90vh;
+      }
+
+      .img-phone-index{
+        width: 20rem;
+        padding: 0;
+      }
+
+      .left-download{
+        display: block;
+        margin: auto;
+      }
+
+      .btn-download{
+        display: flex;
+        margin-top: 3rem;
+      }
+
+      .des-how{
+        margin-left: 1rem;
+      }
+
+      .topic{
+        font-size: 4rem;
+      }
+
+      .des{
+        font-size: 0.9rem;
+        margin: 0;
+      }
+
+      .contact{
+        margin-top: 1rem;
+      }
+
+      .icon-contact{
+        width: 2rem;
+      }
+
+      .text-warm{
+      font-size: 0.9rem;
+      margin-bottom: 0;
     }
   }
 </style>

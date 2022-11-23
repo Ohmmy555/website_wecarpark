@@ -1,9 +1,11 @@
 <template>
   <section id="how" class="how-android">
     <h4 class="topic-how">Steps and how to download</h4>
+    <div class="img-main">
 <img src="../assets/image/1.png" alt="" class="img-how">
 <img src="../assets/image/2.png" alt="" class="img-how">
 <img src="../assets/image/3.png" alt="" class="img-how">
+</div>
   </section>
 </template>
 
@@ -31,5 +33,28 @@ background: #faa632;
       font-weight: 400;
       padding: 2rem 0;
     }
+    @media (min-width: 576px) {
+
+}
+
+  @media (min-width: 768px) {
+
+}
+
+  @media (min-width: 992px) {
+
+}
+
+  @media (min-width: 1200px) {
+
+      .img-how{
+        width: 25rem;
+      }
+
+      .img-main{
+        display: flex;
+      }
+
+  }
   }
 </style>
