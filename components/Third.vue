@@ -94,12 +94,13 @@
   
   .content_third{
   margin: auto;
+  width: 50%;
   }
   
   .img_third{
     margin: auto;
     display: flex;
-    width: 100%;
+    width: 50%;
   }
   
   .img_third_detail{
@@ -117,6 +118,7 @@
     font-size: 2rem;
     font-weight: 400;
     line-height: 40px;
+    color: #fea630;
   }
   
   .des_third{
@@ -155,6 +157,11 @@
     text-align: center;
     margin-top: 2.5rem;
     margin-bottom: 2rem;
+  }
+  .topic-third{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.8rem;
   }
 
   @media screen and (max-width: 450px) {

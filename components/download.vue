@@ -16,7 +16,12 @@
       </a>
       </div>
       <div class="contact">
-        <p class="des"><a href="https://line.me/ti/p/%40wecarpark#~" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
+        <p class="des">
+          <a href="https://line.me/ti/p/%40wecarpark#~" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href=""><img src="../assets/icon/facebook.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href=""><img src="../assets/icon/instagram.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href=""><img src="../assets/icon/twitter.svg" alt="" class="icon-contact"></a>
+        </p>
       </div>
   
     </div>
@@ -71,7 +76,7 @@ export default {
   }
 
   .des-how{
-    color: #fd9509;
+    color: #11833a;
     margin: auto;
   }
 
@@ -125,7 +130,7 @@ color: #fff;
       margin-top: 1rem;
       text-align: center;
       font-size: 0.8rem;
-      color: #fd9509;
+      color: #11833a;
     }
 
     .icon-contact{
@@ -135,6 +140,14 @@ color: #fff;
       .des{
         text-align: center;
       }
+
+    .download{
+      margin-bottom: 3rem;
+    }
+
+    .contact{
+      display: none;
+    }
 
 
   }

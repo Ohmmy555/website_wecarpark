@@ -14,7 +14,26 @@
 </script>
 
 <style>
-  
+      .img-how{
+      width: 35rem;
+  display: flex;
+  padding-bottom: 1rem;
+    }
+    .how-android{
+background: #faa632;
+    }
+
+    .img-main{
+      display: flex;
+    }
+
+    .topic-how{
+      text-align: center;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 2rem 0;
+    }
   @media screen and (max-width: 450px) {
     .img-how{
       width: 20rem;
@@ -32,6 +51,10 @@ background: #faa632;
       font-size: 1.2rem;
       font-weight: 400;
       padding: 2rem 0;
+    }
+
+    .img-main{
+      display: block;
     }
     @media (min-width: 576px) {
 

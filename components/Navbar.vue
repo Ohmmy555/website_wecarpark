@@ -8,7 +8,13 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="/" class="item-one">Home</b-nav-item>
-        <b-nav-item href="download" class="item-one">Download</b-nav-item>
+        <b-nav-item href="download" class="item-one" style="margin-right:1.5rem;">Download</b-nav-item>
+        <div class="menu">
+        <a href="https://www.facebook.com"><img src="../assets/icon/facebook.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href="https://line.me/ti/p/%40wecarpark#~"><img src="../assets/icon/line.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href="https://www.instagram.com"><img src="../assets/icon/instagram.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href="https://www.twitter.com"><img src="../assets/icon/twitter.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+      </div>
       </b-navbar-nav>
 
     </b-collapse>
@@ -38,6 +44,11 @@ export default {
   z-index: 20;
 }
 
+.menu{
+      padding-left: 1rem;
+      margin: 0;
+    }
+
 @media screen and (min-width: 360px) {
     .item-one{
         font-size: 0.8rem;
@@ -46,6 +57,10 @@ export default {
 
     .item-one:hover{
         color: #fd9509;
+    }
+    .menu{
+      padding-left: 1rem;
+      margin: 1rem 0;
     }
 }
 @media (min-width: 576px) {
@@ -65,6 +80,11 @@ export default {
     width: 1000px;
     margin: auto;
   }
+  .menu{
+      padding-left: 0;
+      margin: 0;
+      padding-top: .1rem;
+    }
 }
 
 @media (min-width: 1400px) {

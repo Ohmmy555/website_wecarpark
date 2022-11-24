@@ -1,5 +1,6 @@
 <template>
     <div class="about-us container">
+      <div>
       <div class="content">
         <div class="topic">About us</div>
         <div class="des_project">
@@ -14,6 +15,7 @@
           <profile-item v-for="item in profiles" :key="item.name" :item="item" />
         </div>
       </div>
+    </div>
     </div>
   </template>
   
@@ -77,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(249, 251, 252);
+
   }
   .content {
     width: 80vw;

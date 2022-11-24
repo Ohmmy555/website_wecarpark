@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="home-main">
     <div class="container-fluid p-3 alert-success">
     <p class="text-center text-warm"><b><span class="topic_we">We</span><span class="topic_carpark">Carpark</span></b> กำลังอยู่ในช่วงการทดสอบที่คณะศึกษาศาสตร์ มหาวิทยาลัยขอนแก่น</p>
   </div>
     <section class="container home">
-      <div class="left pl-4">
+      <div class="left">
         <div class="cont-left">
         <h3 class="topic-home"><span class="we-home">We</span><span class="carpark-home">Carpark</span></h3>
         <p class="des-home">Easy Park Easy Pay</p>
@@ -31,6 +31,10 @@ export default {};
   height: 100vh;
 }
 
+.home-main{
+  height: 100vh;
+}
+
 .we-home{
   color: #fd9509;
 }
@@ -54,7 +58,7 @@ export default {};
     }
 
   .img-index-home{
-    width: 10rem;
+    width: 18rem;
       margin: auto auto;
       display: block;
       padding-bottom:2rem ;
@@ -65,7 +69,7 @@ export default {};
       font-weight: 400;
       text-align: center;
       margin-bottom: 0;
-      margin-top: 4rem;
+      margin-top: 3rem;
     }
 
   .des-home{
@@ -81,7 +85,11 @@ export default {};
   }
 
   .cont-right{
-    margin-top: 4rem;
+    margin-top: 3rem;
+  }
+
+  .left{
+    padding-left: 0;
   }
 }
 
