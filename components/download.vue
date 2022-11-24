@@ -5,18 +5,18 @@
   </div>
     <div class="container download">
       <div class="left-download">
-      <h1 class=" topic mt-4"><span class="topic_we">Easy Park</span><b></b><span class="topic_carpark">Easy Pay</span></h1>
+      <h1 class=" topic mt-4"><span class="topic_we">Easy Park</span><br><span class="topic_carpark">Easy Pay</span></h1>
       <p class="des">A platform that lets parking space owners rent out their spaces to drivers looking for a place to park.</p>
       <div class="btn-download">
-        <a href="https://www.google.com" target="_blank">
+        <a href="https://install.appcenter.ms/users/panuwat_ys-kkumail.com/apps/wecarpark/distribution_groups/public?fbclid=IwAR0P04_MtB6rGBv_JB74WXdeSQwlww2wvoKBHAOGn6QX_29rNfb-q6Tu7AA" target="_blank" class="btn-download">
         <button type="button" class="btn"><img src="../assets/icon/android.svg" alt="logo android" class="icon-android">Download for Android</button>
       </a>
-        <a href="#how">
+        <a href="#how" class="des-how-a">
         <p class="des-how">Steps and how to download</p>
       </a>
       </div>
       <div class="contact">
-        <p class="des"><a href="https://www.line.me/th" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
+        <p class="des"><a href="https://page.line.me/?accountId=wecarpark&fbclid=IwAR09w7edkqEbi6eLacNN63qrPF7lZNUt39uenDJ6JOkijxeVi0QkzedS5F8" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
       </div>
   
     </div>
@@ -69,8 +69,26 @@ export default {
     text-decoration: none;
     color: black;
   }
+
+  .des-how{
+    color: #fd9509;
+    margin: auto;
+  }
+
+  .des-how-a{
+    margin: auto;
+    ;margin-left: 0;
+  }
+
+  .btn-download{
+    color: #fff;
+  }
+
+  .btn-download:hover{
+color: #fff;
+  }
   
-  @media screen and (min-width: 360px) {
+  @media screen and (max-width: 360px) {
     .topic{
       font-size: 3rem;
       font-weight: 400;

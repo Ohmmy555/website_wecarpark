@@ -28,7 +28,9 @@ export default {
     components: true,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: [],
+    buildModules: [
+
+    ],
 
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [

@@ -39,7 +39,8 @@ export default {};
   color: #11833a;
 }
 
-@media screen and (min-width: 360px) {
+
+@media screen and (max-width: 360px) {
 
   .home{
     display: block;
@@ -100,7 +101,7 @@ export default {};
 
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .topic-home{
 margin-bottom: 0;
 font-size: 3rem;
@@ -109,6 +110,7 @@ font-size: 3rem;
   .des-home{
 font-size: 1.8rem;
 margin-bottom: 2rem;
+text-align: start;
   }
 
   .left{
@@ -135,6 +137,10 @@ margin: auto;
 
   .cont-right{
     margin: auto;
+  }
+
+  .home{
+    display: flex;
   }
 }
 

@@ -77,6 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(249, 251, 252);
   }
   .content {
     width: 80vw;
@@ -145,6 +146,29 @@
       color: rgb(23, 25, 63);
       font-weight: 400;
       text-align: center;
+    }
+
+    @media only screen and (max-width:360px) {
+      .topic{
+        font-size: 1.1rem;
+      }
+
+      .des_project{
+        font-size: .8rem;
+      }
+
+      .content{
+        margin-top: 1.5rem;
+        padding: 0;
+      }
+
+      .profiles {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-us {
+      padding-bottom: 2rem;
+    }
     }
   }
   </style>

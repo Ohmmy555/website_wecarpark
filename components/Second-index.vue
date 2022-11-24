@@ -94,5 +94,16 @@
       text-align: center;
       padding-top: 2.5rem;
     }
+
+    @media only screen and (max-width:360px) {
+      .topic_t{
+        font-size: 1.1rem;
+        margin-bottom: 0;
+      }
+
+      .second-page{
+        padding-bottom: 3rem;
+      }
+    }
   }
   </style>

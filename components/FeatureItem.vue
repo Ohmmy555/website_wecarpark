@@ -136,6 +136,7 @@
     font-size: 0.8rem;
     color: rgb(100, 100, 100);
   }
+
   
   @media only screen and (max-width: 992px) {
     .circle-icon-border-success,
@@ -186,6 +187,17 @@
   .des{
     margin-bottom: 3rem;
     font-weight: 400;
+  }
+
+  @media only screen and (max-width: 360px) {
+    .circle-blog{
+      height: auto;
+    }
+
+    .des{
+      margin-bottom: 0;
+    }
+
   }
   }
   </style>

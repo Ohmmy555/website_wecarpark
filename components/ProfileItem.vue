@@ -67,5 +67,12 @@
       height: 5rem;
     }
   }
+
+  @media only screen and (max-width:360px) {
+    .image-profile{
+      width: 10rem;
+      height: 10rem;
+    }
+  }
   </style>
   
