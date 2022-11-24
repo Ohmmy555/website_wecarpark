@@ -148,7 +148,7 @@
       text-align: center;
     }
 
-    @media only screen and (max-width:360px) {
+    @media only screen and (max-width:400px) {
       .topic{
         font-size: 1.1rem;
       }
@@ -163,7 +163,7 @@
       }
 
       .profiles {
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .about-us {

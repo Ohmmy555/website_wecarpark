@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="">
       <img class="image-profile" :src="getImage()" alt="" />
       <br />
       <div class="item-name">{{ item.name }}</div>
@@ -68,10 +68,14 @@
     }
   }
 
-  @media only screen and (max-width:360px) {
+  @media only screen and (max-width:400px) {
     .image-profile{
-      width: 10rem;
-      height: 10rem;
+      width: 8rem;
+      height: 8rem;
+    }
+
+    .item-role{
+      font-size: .8rem;
     }
   }
   </style>

@@ -189,7 +189,7 @@
     font-weight: 400;
   }
 
-  @media only screen and (max-width: 360px) {
+  @media only screen and (max-width: 400px) {
     .circle-blog{
       height: auto;
     }

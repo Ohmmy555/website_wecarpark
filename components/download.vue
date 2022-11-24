@@ -88,7 +88,7 @@ export default {
 color: #fff;
   }
   
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 400px) {
     .topic{
       font-size: 3rem;
       font-weight: 400;

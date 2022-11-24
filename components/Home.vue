@@ -40,7 +40,7 @@ export default {};
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 
   .home{
     display: block;
