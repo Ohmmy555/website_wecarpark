@@ -10,10 +10,10 @@
         <b-nav-item href="/" class="item-one">Home</b-nav-item>
         <b-nav-item href="download" class="item-one" style="margin-right:1.5rem;">Download</b-nav-item>
         <div class="menu">
-        <a href="https://www.facebook.com"><img src="../assets/icon/facebook.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
-        <a href="https://line.me/ti/p/%40wecarpark#~"><img src="../assets/icon/line.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
-        <a href="https://www.instagram.com"><img src="../assets/icon/instagram.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
-        <a href="https://www.twitter.com"><img src="../assets/icon/twitter.svg" alt="" class="icon-contact" style="margin-right: 1rem;"></a>
+        <a href="https://www.facebook.com"><img src="../assets/icon/facebook.svg" alt="" class="icon-menu" style="margin-right: 1rem;"></a>
+        <a href="https://line.me/ti/p/%40wecarpark#~"><img src="../assets/icon/line.svg" alt="" class="icon-menu" style="margin-right: 1rem;"></a>
+        <a href="https://www.instagram.com"><img src="../assets/icon/instagram.svg" alt="" class="icon-menu" style="margin-right: 1rem;"></a>
+        <a href="https://www.twitter.com"><img src="../assets/icon/twitter.svg" alt="" class="icon-menu" style="margin-right: 1rem;"></a>
       </div>
       </b-navbar-nav>
 
@@ -62,6 +62,10 @@ export default {
       padding-left: 1rem;
       margin: 1rem 0;
     }
+
+    .icon-menu{
+      width: 2rem;
+    }
 }
 @media (min-width: 576px) {
 
@@ -84,6 +88,10 @@ export default {
       padding-left: 0;
       margin: 0;
       padding-top: .1rem;
+    }
+
+    .icon-menu{
+      width: 2rem;
     }
 }
 
