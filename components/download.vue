@@ -8,7 +8,7 @@
       <h1 class=" topic mt-4"><span class="topic_we">Easy Park</span><br><span class="topic_carpark">Easy Pay</span></h1>
       <p class="des">A platform that lets parking space owners rent out their spaces to drivers looking for a place to park.</p>
       <div class="btn-download">
-        <a href="https://install.appcenter.ms/users/panuwat_ys-kkumail.com/apps/wecarpark/distribution_groups/public?fbclid=IwAR0P04_MtB6rGBv_JB74WXdeSQwlww2wvoKBHAOGn6QX_29rNfb-q6Tu7AA" target="_blank" class="btn-download">
+        <a href="https://install.appcenter.ms/users/panuwat_ys-kkumail.com/apps/wecarpark/distribution_groups/public?fbclid=IwAR0P04_MtB6rGBv_JB74WXdeSQwlww2wvoKBHAOGn6QX_29rNfb-q6Tu7AA" target="_blank" class="">
         <button type="button" class="btn"><img src="../assets/icon/android.svg" alt="logo android" class="icon-android">Download for Android</button>
       </a>
         <a href="#how" class="des-how-a">
@@ -16,7 +16,7 @@
       </a>
       </div>
       <div class="contact">
-        <p class="des"><a href="https://page.line.me/?accountId=wecarpark&fbclid=IwAR09w7edkqEbi6eLacNN63qrPF7lZNUt39uenDJ6JOkijxeVi0QkzedS5F8" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
+        <p class="des"><a href="https://line.me/ti/p/%40wecarpark#~" target="_blank" class="link-line-contact"><img src="../assets/icon/line.svg" alt="icon line" class="icon-contact"> @wecarpark</a></p>
       </div>
   
     </div>
@@ -77,7 +77,7 @@ export default {
 
   .des-how-a{
     margin: auto;
-    ;margin-left: 0;
+    margin-left: 0;
   }
 
   .btn-download{
@@ -138,15 +138,35 @@ color: #fff;
 
 
   }
-    @media (min-width: 576px) {
-
+    @media (max-width: 576px) {
+      .img-phone-index{
+        width: 14rem;
+        padding: 0;
+      }
+      .icon-contact{
+        width: 1.4rem;
+      }
   }
 
-    @media (min-width: 768px) {
-
+    @media (max-width: 768px) {
+      .img-phone-index{
+        width: 16rem;
+        padding: 0;
+      }
+      .icon-contact{
+        width: 1.8rem;
+      }
   }
 
-    @media (min-width: 992px) {
+    @media (max-width: 992px) {
+
+      .img-phone-index{
+        width: 18rem;
+        padding: 0;
+      }
+      .icon-contact{
+        width: 2rem;
+      }
 
   }
 

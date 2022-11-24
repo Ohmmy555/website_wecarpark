@@ -50,6 +50,7 @@ export default {};
   .text-warm{
       font-size: 0.7rem;
       margin-bottom: 0;
+      margin: 0;
     }
 
   .img-index-home{
