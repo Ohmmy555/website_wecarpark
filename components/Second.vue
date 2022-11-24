@@ -15,7 +15,7 @@
 
 <style>
   
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 450px) {
     .img-how{
       width: 20rem;
       margin: auto auto;

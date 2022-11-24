@@ -157,7 +157,7 @@
     margin-bottom: 2rem;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
 
     .container_third{
       display: block;;

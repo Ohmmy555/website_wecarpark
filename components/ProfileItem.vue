@@ -68,7 +68,7 @@
     }
   }
 
-  @media only screen and (max-width:400px) {
+  @media only screen and (max-width:450px) {
     .image-profile{
       width: 8rem;
       height: 8rem;

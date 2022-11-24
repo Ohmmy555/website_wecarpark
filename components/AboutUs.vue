@@ -148,7 +148,7 @@
       text-align: center;
     }
 
-    @media only screen and (max-width:400px) {
+    @media only screen and (max-width:450px) {
       .topic{
         font-size: 1.1rem;
       }
